@@ -14,7 +14,7 @@ app.use(express.urlencoded({extended:true}));
 
 
 app.get('/',(req,res)=>{
-    res.send('Hello World');
+    res.send('Hello World, Welcome to Tripee, Your one stop solution to Transportation around Bengaluru');
 })
 
 app.use('/users',userRouter);
